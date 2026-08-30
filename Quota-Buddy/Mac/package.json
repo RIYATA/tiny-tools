@@ -1,0 +1,22 @@
+{
+  "name": "codex-quota-tide",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A local, read-only Mac web companion for Codex quota rhythms.",
+  "scripts": {
+    "dev": "node server/bridge.mjs",
+    "start": "node server/bridge.mjs",
+    "native": "./start-native.command",
+    "test": "node --test server/**/*.test.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "vite": "^7.2.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
