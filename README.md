@@ -8,6 +8,12 @@
 | --- | --- | --- | --- |
 | Quota Buddy | macOS | 本机运行的 Codex 额度伴侣，以置顶浮窗显示额度与重置时间，并尝试跟随 Codex 宠物窗口。 | [查看说明](Quota-Buddy/Mac/README.md) |
 
+## 界面快照
+
+![Quota Buddy 演示界面](Quota-Buddy/Mac/docs/images/quota-buddy-dashboard.png)
+
+> 快照使用项目内置演示数据，不包含真实账号额度或个人信息。
+
 ## Quota Buddy
 
 Quota Buddy 由本机只读额度服务和原生 macOS 浮窗组成。它优先通过本机 `codex app-server` 获取额度信息，服务不可用时会回退读取本机 Codex 运行记录。
